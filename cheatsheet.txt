@@ -1,0 +1,25 @@
+CREA NUESTRO PROYECTO 
+$git init
+
+CONFIGURAR NUESTRO NOMBRE Y EMAIL
+$git config user.name nombre
+$git config user.email email@email.com
+
+REVISAR EL ESTATUS DE LA CARPETA
+$git status
+
+AGREGAR ARCHIVOS, Y REALIZAR COMMIT 
+$git add . o $git add nombreDelArchivo
+$git commit -m " comentario del commit"
+
+VINCULACION CON EL REPOSITORIO REMOTO
+$git remote add origin "nombre del repositorio remoto"
+
+SUBIR LOS CAMBIOS 
+$git push origin main --> " el main se cambia por el nombre de la rama donde queremos hacer los cambios"
+
+BAJAR CAMBIOS
+$git pull origin main --> " el main se cambia por el nombre de la rama donde queremos traer los cambios"
+
+COPIAR REPOSITORIO REMOTo
+$git clone "nombre del repositorio remoto"
